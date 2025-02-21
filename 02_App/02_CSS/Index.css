@@ -1,0 +1,54 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    max-width: 95%;
+    height:100%;
+    margin: auto;
+    
+}
+
+.container-heading{
+    background-color:darkcyan;
+    height: 100px;
+    
+}
+
+.container-nav{
+    background-color: #333;
+    overflow: hidden;
+
+    
+}
+
+.navbar{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    
+}
+
+.navbar-list{
+    float:left;
+
+}
+
+.navbar-list-item{
+    display: block;
+    text-decoration: none;
+    padding: 5px 30px;
+    color: aliceblue;
+    text-align:center;
+}
+
+.navbar-list a:hover:not(.active){
+    background-color: #111;
+}
+
+.active{
+    background-color: #04AA6D;
+}
+
